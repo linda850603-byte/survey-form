@@ -276,13 +276,13 @@
                 });
                 const result = await response.json();
                 if (result.status === 'success') {
-                    alert('問卷已提交！數據已儲存至試算表。');
+                    alert('問卷已提交！感謝您的回覆。');
                 } else {
-                    alert('提交失敗，請稍後再試！');
+                    alert('提交失敗，請聯絡分機#4400-8119！');
                 }
             } catch (error) {
                 console.error('Error:', error);
-                alert('提交失敗，請檢查網路連線或 Apps Script URL！');
+                alert('提交失敗，請檢查網路連線或請聯絡分機#4400-8119！');
             }
         });
     </script>
